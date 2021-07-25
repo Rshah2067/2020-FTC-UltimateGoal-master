@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="Redgoal" motionHint="static" trackingMode="default"/>
+<ModelTarget name="bluegoal" motionHint="static" trackingMode="default"/>
+<ModelTarget name="Ring" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="Redgoals_assembly" assemblyId="2faac478d47d4699be40cd76002cc663">
+<Part name="Redgoal" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0001" translation="0.0221022 0.664319 2.37859" rotation="AD: 0.9999997987410028 -0.008845909369312906 0.07244367869492457 193.887" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="bluegoals_assembly" assemblyId="88cc837282b841af891f8de4d894d85c">
+<Part name="bluegoal" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.291547 0.623118 2.19007" rotation="AD: 0.5571270042062041 -0.8305720475540407 53.564889520965515 180.018" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="Rings_assembly" assemblyId="548efe3556dc4058866b4bcc39cd8f38">
+<Part name="Ring" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="4.66207e-18 9.92065e-18 0.144751" rotation="AD: 0.999964963392754 0.021904786425613165 -0.41419904973519434 185.593" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="2020-2021" />
+</QCARConfig>
